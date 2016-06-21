@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - ReachabilitySwift (2.3.3)
+  - SnapKit (0.20.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - SnapKit
+
+EXTERNAL SOURCES:
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift
+
+CHECKOUT OPTIONS:
+  ReachabilitySwift:
+    :commit: 99bf4c6ef9a4ec39dccd1bf4640716713b3dc0f6
+    :git: https://github.com/ashleymills/Reachability.swift
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
+
+COCOAPODS: 0.39.0
