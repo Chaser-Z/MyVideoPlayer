@@ -10,12 +10,24 @@ import UIKit
 
 class FullView: UIView {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        
+        super.init(frame: frame)
+        // 自动适应父视图大小
+        self.autoresizesSubviews = true
+        self.autoresizingMask = [UIViewAutoresizing.FlexibleHeight,UIViewAutoresizing.FlexibleWidth]
+        self.backgroundColor = UIColor.blackColor()
     }
-    */
+    
+    required init(coder aDecoder: NSCoder) {
+        
+        super.init(coder: aDecoder)!
+        // 自动适应父视图大小
+        self.autoresizesSubviews = true
+        self.autoresizingMask = [UIViewAutoresizing.FlexibleHeight,UIViewAutoresizing.FlexibleWidth]
+        self.backgroundColor = UIColor.blackColor()
+
+        
+    }
 
 }

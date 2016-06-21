@@ -15,6 +15,21 @@ class FullViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    override func loadView() {
+        
+        let fullView = FullView()
+        
+        self.view = fullView
+    }
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        
+        return UIInterfaceOrientationMask.Landscape
+    }
+    override func shouldAutorotate() -> Bool {
+        
+        return true
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
